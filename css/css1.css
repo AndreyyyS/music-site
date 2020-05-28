@@ -1,0 +1,197 @@
+body{
+  font-family: Arial, San-Serif;
+  font-size: 80%;
+}
+#cartinka{
+  width: 100%;
+  height: 300px;
+}
+#cart{
+ position: relative;
+height: 250px;
+width: 240px;
+
+top: 40px;
+left: 25px;
+margin: 20px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+    color: yellowgreen;
+}
+.conteiner{
+
+  margin: 2px auto;
+  width: 100%;
+
+}
+.navig{
+  background-color: #000;
+  border-color: black;
+  min-height: 60px;
+}
+.ul1{
+  background-color: #000;
+  border-color: black;
+  min-height: 60px;
+  z-index: 2;
+
+}
+.navig ul ul{
+  display: none;
+  position: absolute;
+}
+.navig li a:hover {
+  color: yellowgreen;
+  background-color: #808080;
+  }
+.navig  li{
+  display: block;
+  float: left; 
+  width: 200px;
+  color: #ff9933;
+  list-style-type: none;
+  position: relative;
+}
+.navig a {
+  display: block;
+  color: #9d9d9d;
+  line-height: 4em;
+  font-weight: bold;
+  text-align: center;
+  }
+.navig  li:hover ul{
+  display: block;
+
+}
+fieldset{
+  position: relative;
+right: 10px;  
+}
+#reg{
+position: relative;
+top: 60px;
+left: 10px;
+z-index: 1;
+color: #FFFF;
+font-size: 15px;
+
+}
+
+p{
+  font-size: 15px;  
+  color: #FFFF;
+  text-align: justify;
+  text-indent: 20px;
+}
+#mz{
+  text-align: justify;
+  font-size: 20px;  
+  margin: 20px;
+  color: #FFFF;
+}
+#z{
+  text-align: center;
+  font-size: 20px;  
+  margin: 30px;
+  color: #FFFF;
+}
+
+
+#m{
+position: relative;
+top: 50px;
+}
+
+aside{
+background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to right, #340c69, #751a3b);
+ 
+
+height:1200px;   
+ width: 28%; 
+float: left;
+
+
+}
+main{
+
+background: black;
+float:left;
+height:1200px;   
+ width: 50%; 
+
+font-size: 18px ; 
+}
+#rite{
+background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to right, #751a3b, #340c69);
+   
+
+height:1200px;  
+width: 22%; 
+float: right;
+}
+#otz{
+  position: relative;
+  top: 60px;
+
+}
+
+footer{
+  position: absolute;
+
+  clear: left;;
+background-color: black; 
+width: 100%; 
+height: 50px; 
+margin-top: 1210px;
+}
+h1{
+
+color: #FFFF;
+  text-align: center;
+}
+h2{
+
+  color: #FFFF;
+text-align: center;
+}
+#bl{
+ position: relative;
+ left: 50px;
+padding: 10px;
+  border-width: thick;
+
+border-style: ridge;
+
+border-color: gold;
+height: 255px;
+width: 550px;
+}
+textarea{
+height: 300px;
+  width: 200px;
+}
+#pic{
+position: relative;
+left: 5px;
+float:left;
+
+width: 225px;
+
+}
+#pic2{
+  height: 235px;
+  width: 225px;
+}
+audio{
+  position: absolute;
+  right: 20px;
+ top: 190px;
+}
